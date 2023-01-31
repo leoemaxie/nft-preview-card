@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    padding: 1em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+.overlay {
+    border-radius: 5px;
+}
+
+.overlay:hover {
+    background: hsl(178, 100%, 50%);
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.img:hover {
+    opacity: 0.4;
+}
+
+.view {
+    display: none;
+    width: 15px;
+    opacity: 1;
+}
+
+view:hover {
+    position: relative;
+    margin: 40%;
+    width: 2em;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+div>p {
+    margin-top: 0.1em;
+}
+
+h4:hover,
+span:hover,
+.img:hover {
+    cursor: grab;
+}
+
+p, .align {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.days {
+    margin-left: 9.5em;
+    
+}
+
+h4:hover,
+span:hover,
+.flex p:first-child span {
+    color: hsl(178, 100%, 50%);
+}
+
+.flex img {
+    margin-right: 0.5em;
+    margin-top: 0.2em;
+}
+
+.flex p:first-child span {
+    font-weight: 400;
+}
+
+.align {
+    position: absolute;
+    margin-top: 0.2em;
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.card div:last-child img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+    margin-top: -3px;
+}
+
+.card div:last-child p {
+    align-self: baseline;
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    bottom: 2%;
+    right: 40.4%;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(215, 51%, 70%);
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 780px) {
+    .card {
+        width: fit-content;
+    }
+}
