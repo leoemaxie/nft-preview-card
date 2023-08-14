@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
+# NFT preview card component solution
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Product Preview Card](https://github.com/leoemaxie/nft-preview-card)
-- Live Site URL: [NFT Preview Card Component](https://365-nft-preview-card-component)
+- Solution URL: [NFT Preview Card](https://github.com/leoemaxie/nft-preview-card)
+- Live Site URL: [NFT Preview Card Component](https://leoemaxie-nft-preview-card.netlify.app)
 
 ## My process
 
@@ -54,6 +54,6 @@ This is just another step in my stated goal of building responsive product cards
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@leoemaxie](https://www.frontendmentor.io/profile/leoemaxie)
 - Twitter - [@leoemaxie](https://www.twitter.com/leoemaxie)
 
